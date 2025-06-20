@@ -1,0 +1,47 @@
+
+# Visit the address <url> and verify that the Insider homepage is opened
+* Verify that the current URL the value <url>
+
+# Cookie pop-up has been closed
+* Click the "InsiderCookiePopUpDeclineAllButton" element
+
+# Select the 'Company' menu from the navigation bar, then choose the 'Careers' option
+* Hover over the "InsiderNavigationBarCompanyText" element
+* Click the "InsiderCompanyMenuCareersText" element
+
+# Verify that the Careers page and Locations, Teams, and Life on Insider sections are displayed
+* Verify that the current URL contains the value "https://useinsider.com/careers/"
+* Verify that the "InsiderCareersOurLocationBlock" element is visible
+* Verify that the "InsiderCareersSeeAllTeamsBlock" element is visible
+* Verify that the "InsiderCareersLifeAtInsiderBlock" element is visible
+
+# Go to the address <url>
+* Go to <url>
+
+# Click the 'See all QA jobs' button
+* Click the "InsiderSeeAllQAJobsButton" element
+
+# Apply the filters: Location: 'Istanbul, Turkey' and Department: 'Quality Assurance', then verify that the job listings are displayed
+* Wait until the text of element with key "ShowingText" becomes stable for "7" seconds within "10" seconds
+* Select "Istanbul, Turkiye" from the "InsiderFilterByLocationSelect" dropdown
+* Select "Quality Assurance" from the "InsiderFilterByDepartmentSelect" dropdown
+
+# It is checked that all job postings include 'Quality Assurance' in the Position title, 'Quality Assurance' in the Department section, and 'Istanbul, Türkiye' in the Location section
+* Verify that the "InsiderBrowseOpenPositionsLocationText" element is visible
+* Scroll to the element with key "InsiderBrowseOpenPositionsLocationText"
+* Wait until the text of element with key "InsiderBrowseOpenPositionsLocationText" becomes stable for "1" seconds within "3" seconds
+* Verify that all results with key "InsiderBrowseOpenPositionsLocationText" contain "Istanbul, Turkiye"
+* Scroll to the element with key "InsiderBrowseOpenPositionsPositionTitleText"
+* Verify that all results with key "InsiderBrowseOpenPositionsPositionTitleText" contain "Quality Assurance"
+
+* Scroll to the element with key "InsiderBrowseOpenPositionsDepartmentText"
+* Verify that all results with key "InsiderBrowseOpenPositionsDepartmentText" contain "Quality Assurance"
+
+# Click the 'View Role' button
+* Hover over the "InsiderBrowseOpenPositionsLocationText" element
+* Click the "InsiderViewRoleButton" element
+
+# Verify whether the page is redirected to the 'Lever Application Form'
+* Switch to the newly opened tab
+* Verify that the current URL contains the value "https://jobs.lever.co/useinsider/"
+

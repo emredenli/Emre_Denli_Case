@@ -1,0 +1,89 @@
+[
+  {
+    "key": "InsiderCookiePopUpDeclineAllButton",
+    "value": "wt-cli-reject-btn",
+    "type": "id"
+  },
+  {
+    "key": "InsiderNavigationBarCompanyText",
+    "value": "//a[@id='navbarDropdownMenuLink' and contains(text(), 'Company')]",
+    "type": "xpath"
+  },
+  {
+    "key": "InsiderCompanyMenuCareersText",
+    "value": "//a[@class='dropdown-sub' and text()='Careers']",
+    "type": "xpath"
+  },
+  {
+    "key": "InsiderCareersOurLocationBlock",
+    "value": "career-our-location",
+    "type": "id"
+  },
+  {
+    "key": "InsiderCareersSeeAllTeamsBlock",
+    "value": "//a[text()='See all teams']",
+    "type": "xpath"
+  },
+  {
+    "key": "InsiderCareersLifeAtInsiderBlock",
+    "value": "section[class='elementor-section elementor-top-section elementor-element elementor-element-a8e7b90 elementor-section-full_width elementor-section-height-default elementor-section-height-default']",
+    "type": "css"
+  },
+  {
+    "key": "InsiderSeeAllQAJobsButton",
+    "value": "//a[text()='See all QA jobs']",
+    "type": "xpath"
+  },
+  {
+    "key": "InsiderFilterButton",
+    "value": "//button[@class='btn d-flex' and @aria-controls='filter-menu']//span[text()='Filter']",
+    "type": "xpath"
+  },
+  {
+    "key": "InsiderFilterByLocationDropdown",
+    "value": "select2-filter-by-location-container",
+    "type": "id"
+  },
+  {
+    "key": "InsiderFilterByDepartmentDropdown",
+    "value": "select2-filter-by-department-container",
+    "type": "id"
+  },
+  {
+    "key": "InsiderFilterByLocationSelect",
+    "value": "filter-by-location",
+    "type": "id"
+  },
+  {
+    "key": "InsiderFilterByDepartmentSelect",
+    "value": "filter-by-department",
+    "type": "id"
+  },
+  {
+    "key": "InsiderBrowseOpenPositionsLocationText",
+    "value": "div[class='position-location text-large']",
+    "type": "css"
+  },
+  {
+    "key": "ShowingText",
+    "value": "deneme",
+    "type": "id"
+  },
+  {
+    "key": "InsiderBrowseOpenPositionsPositionTitleText",
+    "value": "p[class='position-title font-weight-bold']",
+    "type": "css"
+  },
+  {
+    "key": "InsiderViewRoleButton",
+    "value": "//a[text()='View Role']",
+    "type": "xpath"
+  },
+  {
+    "key": "InsiderBrowseOpenPositionsDepartmentText",
+    "value": "span[class='position-department text-large font-weight-600 text-primary']",
+    "type": "css"
+  }
+
+]
+
